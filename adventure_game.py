@@ -11,7 +11,7 @@ template_for_food = ["You ordered {{food}}",
                      "You whisper {{food}}"]
 
 
-# This will define what you will order at McDonald
+# This will define what you you will order at McDonald
 def random_sentence_in_McDonald(food, template_for_food):
     template = random.choice(template_for_food)
     output = []
